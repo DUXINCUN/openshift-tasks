@@ -4,7 +4,7 @@
     <mirror>
       <id>nexus</id>
       <name>Nexus Public Mirror</name>
-      <url>http://nexus-opentlc-shared.apps.na37.openshift.opentlc.com/repository/maven-all-public/</url>
+      <url>http://nexus-852c-nexus.apps.cluster-appdeploy.appdeploy.ilt.opentlc.com/repository/maven-all-public/</url>
       <mirrorOf>*</mirrorOf>
     </mirror>
   </mirrors>
@@ -12,7 +12,7 @@
     <server>
       <id>nexus</id>
       <username>admin</username>
-      <password>admin123</password>
+      <password>app_deploy</password>
     </server>
   </servers>
 </settings>
