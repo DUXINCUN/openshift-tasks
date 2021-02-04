@@ -25,7 +25,6 @@ pipeline {
   stages {
     // Checkout Source Code and calculate Version Numbers and Tags
     stage('Checkout Source') {
-      checkout scm
       steps {
         // Get code from protected Git repository
         // git credentialsId: 'a15841e5-6ce3-4c55-a200-0821bc8a91f8', url: 'https://gogs-gogs-852c-gogs.apps.cluster-appdeploy.appdeploy.ilt.opentlc.com/CICDLabs/openshift-tasks-private.git'
